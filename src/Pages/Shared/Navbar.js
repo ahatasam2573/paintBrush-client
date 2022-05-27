@@ -18,7 +18,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-accent text-3xl">
+                <a className="btn btn-ghost normal-case text-accent text-3xl">
                     <img className='w-20 h-12 btn-circle avatar' src={logo} alt="" />
                     <span className='text-6xl text-primary'>P</span>
                     <span>aintBrush</span>
