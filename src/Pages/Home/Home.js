@@ -3,6 +3,7 @@ import AvailableItems from './AvailableItems';
 import Banner from './Banner/Banner';
 import BusinessSummary from './BusinessSummary';
 import ImproveSection from './ImproveSection/ImproveSection';
+import ProductManagement from './ProductManagement/ProductManagement';
 import Testimonial from './Testimonial';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <BusinessSummary></BusinessSummary>
             <Testimonial></Testimonial>
             <ImproveSection></ImproveSection>
+            <ProductManagement></ProductManagement>
         </div>
     );
 };
