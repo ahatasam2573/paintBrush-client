@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "Linzer A-1525 Stain Brush Set",
+        "description": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination.",
+        "picture": "https://m.media-amazon.com/images/I/71FoZIFjt4S._AC_SY879_.jpg",
+        "price": 1000,
+        "quantity": 5,
+        "supplier": "Smith"
+    },
+    {
+        "_id": 2,
+        "name": "Colorations Plastic Handle Jumbo ",
+        "description": "ESSENTIAL PAINTING SUPPLY: This multi pack of kids paint brushes makes painting easy for small hands with bigger than normal brushes.PERFECT FOR THE CLASSROOM",
+        "picture": "https://m.media-amazon.com/images/I/61FJKQLKt1L._SX466_.jpg",
+        "price": 1720,
+        "quantity": 6,
+        "supplier": "Arif"
+    },
+    {
+        "_id": 3,
+        "name": "Chalkology Artisan Series",
+        "description": "Quality natural bristles. Works with all colors for restoration of antique furniture and creating vintage looking chairs, tables, cabinets and walls.",
+        "picture": "https://m.media-amazon.com/images/I/81gM6yJMQlL._AC_SX679_.jpg",
+        "price": 2002,
+        "quantity": 6,
+        "supplier": "Henry"
+    },
+    {
+        "_id": 4,
+        "name": "Basics Flat Edge Master",
+        "description": "Polyester-blend bristles: soft, yet firm and flexible with a tapered and tipped (flagged) design; holds an ample amount of paint for enhanced efficiency and provides a smoother stroke",
+        "picture": "https://m.media-amazon.com/images/I/71iRrp5bMWL._SY445_.jpg",
+        "price": 1250,
+        "quantity": 6,
+        "supplier": "Rafi"
+    },
+    {
+        "_id": 5,
+        "name": "Wooster Brush Q3108",
+        "description": "Soft brush tips provide a smooth and even finish with all latex and oil-based paints White nylon and gold polyester with chisel trim",
+        "picture": "https://m.media-amazon.com/images/I/51DOQ2Kdo+L._AC_SX425_.jpg",
+        "price": 1700,
+        "quantity": 7,
+        "supplier": "Arif"
+    },
+    {
+        "_id": 6,
+        "name": "Colorations Easel Paint Brushes",
+        "description": "ESSENTIAL PAINTING SUPPLY: This multi pack includes 12 brushes with flat-shaped natural bristles and 12 with round-shaped natural bristles, perfect for any young artist's painting kit.",
+        "picture": "https://m.media-amazon.com/images/I/81k76sIqTqL._SX522_.jpg",
+        "price": 220,
+        "quantity": 1100,
+        "supplier": "Siam"
+    }
+]
