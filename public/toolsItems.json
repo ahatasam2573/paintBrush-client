@@ -6,7 +6,7 @@
         "picture": "https://m.media-amazon.com/images/I/71FoZIFjt4S._AC_SY879_.jpg",
         "price": 100,
         "quantity": 5000,
-        "supplier": "Smith"
+        "minimumOrder": "100"
     },
     {
         "_id": 2,
@@ -15,7 +15,7 @@
         "picture": "https://m.media-amazon.com/images/I/61FJKQLKt1L._SX466_.jpg",
         "price": 172,
         "quantity": 600,
-        "supplier": "Arif"
+        "minimumOrder": "50"
     },
     {
         "_id": 3,
@@ -24,7 +24,7 @@
         "picture": "https://m.media-amazon.com/images/I/81gM6yJMQlL._AC_SX679_.jpg",
         "price": 200,
         "quantity": 667,
-        "supplier": "Henry"
+        "minimumOrder": "100"
     },
     {
         "_id": 4,
@@ -33,7 +33,7 @@
         "picture": "https://m.media-amazon.com/images/I/71iRrp5bMWL._SY445_.jpg",
         "price": 170,
         "quantity": 6000,
-        "supplier": "Rafi"
+        "minimumOrder": "500"
     },
     {
         "_id": 5,
@@ -42,7 +42,7 @@
         "picture": "https://m.media-amazon.com/images/I/51DOQ2Kdo+L._AC_SX425_.jpg",
         "price": 170,
         "quantity": 767,
-        "supplier": "Arif"
+        "minimumOrder": "50"
     },
     {
         "_id": 6,
@@ -51,6 +51,6 @@
         "picture": "https://m.media-amazon.com/images/I/81k76sIqTqL._SX522_.jpg",
         "price": 220,
         "quantity": 1100,
-        "supplier": "Siam"
+        "minimumOrder": "50"
     }
 ]

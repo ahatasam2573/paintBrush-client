@@ -19,7 +19,9 @@ const AvailableItems = () => {
                     ></Item>)
                 }
             </div>
+            <button className='btn btn-accent text-white w-full'>Explore More Products</button>
         </div>
+
     );
 };
 
