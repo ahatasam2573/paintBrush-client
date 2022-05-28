@@ -5,6 +5,10 @@ import useItems from '../hooks/useItems';
 const Products = () => {
     const [items, setItems] = useItems();
     const navigate = useNavigate();
+
+    const handleNavigateToPurchase = () => {
+        navigate('/purchase');
+    }
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
             {
@@ -19,7 +23,7 @@ const Products = () => {
                         <p className='p-0'>Quantity: {item.quantity}</p>
                         <p className='p-0'>Minimum Order: {item.minimumOrder}</p>
                         <div className="card-actions">
-                            <button className="btn btn-accent text-white">Buy Now</button>
+                            <button onClick={handleNavigateToPurchase} className="btn btn-accent text-white">Buy Now</button>
                         </div>
                     </div>
                 </div >)

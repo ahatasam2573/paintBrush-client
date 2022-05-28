@@ -1,9 +1,12 @@
+import React, { useState } from 'react';
 import Item from './Item';
 import { useNavigate } from 'react-router-dom';
 import useItems from '../../hooks/useItems';
+import { format } from 'date-fns';
 
 const AvailableItems = () => {
     const [items, setItems] = useItems();
+    const [date, setDate] = useState(new Date());
     const cutItems = items.slice(0, 3)
     const navigate = useNavigate();
 
@@ -20,6 +23,8 @@ const AvailableItems = () => {
                     cutItems.map(item => <Item
                         key={item._id}
                         item={item}
+                        selected={date}
+                        onSelect={setDate}
                     ></Item>)
                 }
             </div>
