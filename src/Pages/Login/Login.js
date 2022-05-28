@@ -1,13 +1,33 @@
 import React from 'react';
-import { useSignInWithGoogle } from 'react-firebase-hooks/auth'
+import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth'
 import auth from '../../firebase.init'
 import { useForm } from "react-hook-form";
+import Loading from '../Shared/Loading';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
     const { register, formState: { errors }, handleSubmit } = useForm();
+
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useSignInWithEmailAndPassword(auth);
+
+    let signInError;
+
+    if (loading || gLoading) {
+        return <Loading></Loading>
+    }
+    if (error || gError) {
+        signInError = <p className='text-red-500'><small>{error?.message || gError?.message}</small></p>
+    }
+
     const onSubmit = data => {
-        console.log(data)
+        console.log(data);
+        signInWithEmailAndPassword(data.email, data.password)
     };
     if (user) {
         console.log(user)
@@ -66,9 +86,11 @@ const Login = () => {
 
                             </label>
                         </div>
-
+                        {signInError}
                         <input className='btn btn-accent w-full max-w-xs text-primary' type="submit" value='Login' />
                     </form>
+                    <p><small className='text-black-700'>New to Paint Brush? <Link className='text-accent' to='/signUp'>Create a New Account</Link></small>
+                    </p>
                     <div className="divider">OR</div>
                     <button onClick={() => signInWithGoogle()} className="btn btn-accent text-white">Continue With Google</button>
                 </div>
