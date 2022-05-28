@@ -46,5 +46,53 @@
         "price": 220,
         "quantity": 1100,
         "minimumOrder": "50"
+    },
+    {
+        "name": "Basics Paint Brush Set",
+        "description": "ESSENTIAL PAINTING SUPPLY: This multi pack includes 12 brushes with flat-shaped natural bristles and 12 with round-shaped natural bristles, perfect for any young artist's painting kit.",
+        "picture": "https://m.media-amazon.com/images/I/814FaGKi7NS._AC_UL320_.jpg",
+        "price": 420,
+        "quantity": 2100,
+        "minimumOrder": "450"
+    },
+    {
+        "name": "Purdy 144152125 Clearcut Series",
+        "description": "ESSENTIAL PAINTING SUPPLY: This multi pack includes 12 brushes with flat-shaped natural bristles and 12 with round-shaped natural bristles, perfect for any young artist's painting kit.",
+        "picture": "https://m.media-amazon.com/images/I/51fxiIvCnGL._AC_SX425_.jpg",
+        "price": 420,
+        "quantity": 2000,
+        "minimumOrder": "250"
+    },
+    {
+        "name": "Wooster Brush 5221",
+        "description": "Very Soft Formulation White & silver CT polyester with chisel trim Rust-resistant brushed steel ferrule",
+        "picture": "https://m.media-amazon.com/images/I/81qhoWy59AL._AC_SY450_PIbundle-6,TopRight,0,0_SH20_.jpg",
+        "price": 720,
+        "quantity": 2500,
+        "minimumOrder": "250"
+    },
+    {
+        "name": "Horizon Group USA Paint Brushes",
+        "description": "ASSORTED BRUSH TYPES: Use the flat or angled brushes to cover large areas with paint or create strokes with crisp edges, round brushes for creating thick-to-thin lines, and small brushes for intricate details!",
+        "picture": "https://m.media-amazon.com/images/I/8119Cd8c6bL._AC_SX569_.jpg",
+        "price": 70,
+        "quantity": 4500,
+        "minimumOrder": "2250"
+    },
+    {
+        "name": "READY 2 LEARN Triangle Grip",
+        "description": " EASY TO GRIP BRUSHES IN 3 SIZES -- This set includes 6 paint brushes with triangular-shaped handles in 3 widths: 0.9”W, 0.75”W and 0.6”W",
+        "picture": "https://m.media-amazon.com/images/I/71Eeg9I2pYL._SX425_.jpg",
+        "price": 120,
+        "quantity": 2500,
+        "minimumOrder": "250"
+    },
+    {
+        "name": "Forney 72740 Wire Wheel Brush",
+        "description": "Designed for easy access into narrow holes and confined areas Crimped style for light to medium duty applications Removes rust, scale and paint in hard to reach areas",
+        "picture": "https://m.media-amazon.com/images/I/715jmJwK4XL._AC_SX425_.jpg",
+        "price": 720,
+        "quantity": 2500,
+        "minimumOrder": "250"
     }
 ]
