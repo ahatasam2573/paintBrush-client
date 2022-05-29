@@ -1,8 +1,8 @@
-# Pain Brush
+# Paint Brush
 
 This website I try to make a warehouse of fashion there have banner, header, and many types of products which can update, delete and add. Here i use react.js for fronted and node.js and express.js for backend. I use mongodb atlas for database.
 
-Live site :
+Live site : https://paint-brush-ccca7.web.app/
 
 ## Features
 
