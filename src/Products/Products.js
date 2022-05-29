@@ -12,7 +12,7 @@ const Products = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
             {
-                items.map(item => <div className="card lg:max-w-lg bg-primary shadow-xl m-6">
+                items?.map(item => <div className="card lg:max-w-lg bg-primary shadow-xl m-6">
                     <figure className="px-10 pt-10">
                         <img src={item.picture} alt={item.name} className="rounded-xl w-52 h-52" />
                     </figure>
