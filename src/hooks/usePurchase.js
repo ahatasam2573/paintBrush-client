@@ -4,7 +4,7 @@ const usePurchase = itemId => {
     const [items, setItems] = useState({});
 
     useEffect(() => {
-        const url = `http://localhost:5000/item/${itemId}`;
+        const url = `https://frozen-brushlands-82202.herokuapp.com/item/${itemId}`;
 
         fetch(url)
             .then(res => res.json())
