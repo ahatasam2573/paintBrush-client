@@ -25,7 +25,7 @@ const SignUp = () => {
 
 
     if (token) {
-        // navigate('/');
+        navigate('/products');
     }
 
     if (loading || gLoading || updating) {

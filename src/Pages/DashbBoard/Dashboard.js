@@ -11,7 +11,7 @@ const Dashboard = () => {
 
             </div>
             <div class="drawer-side">
-                <label for="my-drawer-2" class="drawer-overlay "></label>
+                <label htmlFor="my-drawer-2" class="drawer-overlay "></label>
                 <ul class="bg-yellow-100 menu p-4 overflow-y-auto w-80 text-base-content">
                     <li className='text-2xl text-purple-500'><Link to='/dashboard'>My Orders</Link></li>
                     <li className='text-2xl text-purple-500'><Link to='/dashboard/addReview'>Add Review</Link></li>

@@ -11,7 +11,8 @@ const AvailableItems = () => {
     const navigate = useNavigate();
 
 
-    const handleNavigateToAllProducts = () => {
+    const handleNavigateToAllProducts = event => {
+        event.preventDefault();
         navigate('/products')
     }
 
